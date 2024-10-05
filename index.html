@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tu Nombre">
+    <title>Mi Blog Biker</title>
+    <link rel="stylesheet" href="styles.css">
+
+ <!-- Fuente adicional -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu-horizontal">
+                <li><a href="#viajes">Viajesitos</a></li>
+                <li><a href="#motos">Modelo de Moto</a></li>
+                <li><a href="#pulsar">VideoBlog</a></li>
+                <li><a href="#contacto">Más Información</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>Bienvenidos a Mi Blog</h1>
+        <p>...Explora mis aventuras en moto y conoce algunas de sus caracteristicas...</p>
+        <p>✈️ 🏍️ 🌍 🚴</p> <!-- Simbolos decorativos -->
+    </section>
+
+    <section id="sobre-mi" class="datos-personales">
+        <div class="datos-container">
+            <img src="mifoto.jpeg" alt="Mi foto" class="profile-pic">
+            <div class="info">
+                <h2>Sobre Mí</h2>
+                <p>¡Hola! Soy la chica de la pulsar amarilla y sus viajes. Mi acompañante de aventuras es una <strong>Pulsar ns125</strong>, con la que exploro el mundo. Aquí te cuento un poco más sobre mí:</p>
+                <p><strong>Nombre:</strong> Aidai Monserrtah Jimenez Barboza</p>
+                <p><strong>Edad:</strong> 20 años</p>
+                <p><strong>Correo:</strong> jimenezari09@gmail.com</p>
+                <p>Me gusta la libertad que siento al recorrer caminos desconocidos en moto y la emoción de descubrir nuevos lugares es por eso que eh diseñado este blog para compartir mis experiencias contigo.</p>
+            </div>
+        </div>
+        <p><center>⚡️ 🚀 🔥 🏍️</p></center> <!-- Simbolos decorativos -->
+    </section>
+
+    <div class="main-content">
+        <section id="viajes" class="section-box">
+            <h2>Viajesitos</h2>
+            <p></p>
+
+            <div class="lugar" style="background-color: #C6E2B6;"> <!-- Verde para Valle Nacional -->
+                <h3>Valle Nacional</h3>
+                <p>Famoso por sus verdes montañas y ríos cristalinos. Es un lugar perfecto para disfrutar de la naturaleza y practicar senderismo.</p>
+                <p>La tranquilidad del entorno y el canto de las aves hacen que cada viaje aquí sea una experiencia revitalizante.</p>
+            </div>
+
+            <div class="lugar" style="background-color: #D2B48C;"> <!-- Terracota para Cerro de Oro -->
+                <h3>Cerro de Oro</h3>
+                <p>Un pintoresco pueblo con un ambiente relajado y hermosos paisajes naturales. Aquí puedes encontrar una rica gastronomía y gente amable.</p>
+                <p>Recorrer sus calles empedradas me hizo sentir como en un cuento. ¡No olvides probar los platillos locales!</p>
+            </div>
+
+            <div class="lugar" style="background-color: #FFDEAD;"> <!-- Beige para Tuxtepec -->
+                <h3>Tuxtepec</h3>
+                <p>Una ciudad vibrante donde he vivido increíbles aventuras en mi Pulsar 125. Tuxtepec es conocido por su clima cálido y su gente acogedora.</p>
+                <p>Los paseos por sus calles y la visita a sus atractivos naturales han sido siempre memorables.</p>
+            </div>
+
+            <div class="gallery">
+                <img src="viaje1.jpeg" alt="viaje1">
+                <img src="viaje2.jpeg" alt="viaje2">
+                <img src="viaje3.jpeg" alt="viaje3">
+            </div>
+        </section>
+
+        <section id="pulsar" class="section-box">
+            <h2>VideoBlog</h2>
+            <p>Mira el video para más detalles:</p>
+            <div class="video-container">
+                <video width="560" height="315" controls>
+                    <source src="VideoBlog.mp4" type="video/mp4" frameborder="0" allowfullscreen>
+                    </video>
+                
+            </div>
+            <p><center>🌟 ✨ 🏍️ 🛣️</p></center> <!-- Simbolos decorativos -->
+
+            <foter>
+            <h3>Redes Sociales</h3>
+                <div class="redes-sociales">
+            <a href="https://www.facebook.com">
+                <img src="facebook.jpeg" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="instagram.jpeg" alt="Instagram">
+            </a>
+        </div>
+</foter>
+
+        </section>
+
+        <section id="motos" class="section-box">
+            <h2>Modelo de Moto</h2>
+            <p>Actualmente, tengo un modelo de moto, la <strong>Pulsar ns125</strong>, que es mi compañera en todas mis aventuras.</p>
+            <p>Me encanta personalizar mi moto para hacer cada viaje más especial. Aquí hay algunas modificaciones que he hecho:</p>
+            <ul>
+                <li><strong>Asiento personalizado:</strong> Para mayor comodidad en viajes largos.</li>
+                <li><strong>Alforjas:</strong> Para llevar todo lo necesario durante mis aventuras.</li>
+                <li><strong>Faro:</strong> Mejor visibilidad en la noche.</li>
+            </ul>
+        </section>
+    </div>
+
+    <section id="contacto" class="section-box">
+        <h2>Más Información</h2>
+        <p>Si quieres ponerte en contacto conmigo, puedes enviarme un mensaje a través de mis redes sociales o por correo electrónico.</p>
+        <form action="" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; THEJIBARI_Mi Blog</p>
+    </footer>
+</body>
+</html>
